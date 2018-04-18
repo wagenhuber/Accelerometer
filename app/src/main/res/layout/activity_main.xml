@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.leon.accelerometer.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="X"
+        android:id="@+id/xText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Y"
+        android:id="@+id/yText"
+        android:layout_below="@+id/xText"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/xText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Z"
+        android:id="@+id/zText"
+        android:layout_below="@+id/yText"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/yText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="X-MAX"
+        android:id="@+id/xMaxText"
+        android:layout_below="@+id/zText"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/zText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Y-MAX"
+        android:id="@+id/yMaxText"
+        android:layout_below="@+id/xMaxText"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/xMaxText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Z-MAX"
+        android:id="@+id/zMaxText"
+        android:layout_below="@+id/yMaxText"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/yMaxText"/>
+
+</RelativeLayout>
