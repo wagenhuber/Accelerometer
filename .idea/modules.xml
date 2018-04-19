@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Accelerometer.iml" filepath="$PROJECT_DIR$/Accelerometer.iml" />
       <module fileurl="file://D:\Anwendungsentwicklung\Accelerometer\Accelerometer.iml" filepath="D:\Anwendungsentwicklung\Accelerometer\Accelerometer.iml" />
+      <module fileurl="file://C:\Users\wagenhuberg\AndroidStudioProjects\Android-180419-Accelerometer\Accelerometer.iml" filepath="C:\Users\wagenhuberg\AndroidStudioProjects\Android-180419-Accelerometer\Accelerometer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-180419-Accelerometer.iml" filepath="$PROJECT_DIR$/Android-180419-Accelerometer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://D:\Anwendungsentwicklung\Accelerometer\app\app.iml" filepath="D:\Anwendungsentwicklung\Accelerometer\app\app.iml" />
+      <module fileurl="file://C:\Users\wagenhuberg\AndroidStudioProjects\Android-180419-Accelerometer\app\app.iml" filepath="C:\Users\wagenhuberg\AndroidStudioProjects\Android-180419-Accelerometer\app\app.iml" />
     </modules>
   </component>
 </project>
